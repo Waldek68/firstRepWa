@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DepositApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lokata">LOKATA</string>
+    <string name="calculator">CALCULATOR</string>
+    <string name="our_deposit">Our Deposit</string>
+    <string name="our_calculator">Our Calculator</string>
+    <string name="percent">percent</string>
+    <string name="amount">amount</string>
+    <string name="years">years</string>
+    <string name="oblicz">Oblicz</string>
+    <string name="result">result</string>
+</resources>

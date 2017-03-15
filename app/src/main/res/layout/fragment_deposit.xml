@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nastia.depositapp.DepositFragment"
+
+    android:id="@+id/depositFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/amountText"
+        android:layout_weight="1"
+        android:hint="@string/amount" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/percText"
+        android:layout_weight="1"
+        android:hint="@string/percent" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/yearsText"
+        android:textSize="24sp"
+        android:layout_weight="1"
+        android:hint="@string/years" />
+        <Button
+            android:text="@string/oblicz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/butDepCount"
+            android:layout_weight="1"
+            android:textSize="24sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/resultText"
+            android:layout_weight="1"
+            android:hint="@string/result" />
+
+    </LinearLayout>
+</FrameLayout>
